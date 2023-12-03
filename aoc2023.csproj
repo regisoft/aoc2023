@@ -17,7 +17,7 @@
   </ItemGroup>
 
     <ItemGroup>
-    <Content Include="*.txt">
+    <Content Include="input/*.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>  
   </ItemGroup>

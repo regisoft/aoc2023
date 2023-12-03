@@ -6,10 +6,10 @@ public class D03
     [TestMethod]
     public void P1()
     {
-        var rslt = Calc1($"_{nameof(D03)}_1_sample.txt");
+        var rslt = Calc1($"input/_{nameof(D03)}_1_sample.txt");
         Assert.AreEqual(4361, rslt);
 
-        rslt = Calc1($"_{nameof(D03)}.txt");
+        rslt = Calc1($"input/_{nameof(D03)}.txt");
         Assert.AreEqual(535351, rslt);
     }
 
@@ -73,10 +73,10 @@ public class D03
     [TestMethod]
     public void P2()
     {
-        var rslt = Calc2($"_{nameof(D03)}_1_sample.txt");
+        var rslt = Calc2($"input/_{nameof(D03)}_1_sample.txt");
         Assert.AreEqual(467835, rslt);
 
-        rslt = Calc2($"_{nameof(D03)}.txt");
+        rslt = Calc2($"input/_{nameof(D03)}.txt");
         Assert.AreEqual(87287096, rslt);
     }
 
