@@ -1,17 +1,17 @@
 namespace aoc2023;
 
 [TestClass]
-public class D002
+public class D02
 {
 
 
     [TestMethod]
     public void P1()
     {
-        var rslt = Calc1($"_{nameof(D002)}_1_sample.txt");
+        var rslt = Calc1($"_{nameof(D02)}_1_sample.txt");
         Assert.AreEqual(8, rslt);
 
-       rslt = Calc1($"_{nameof(D002)}.txt");
+       rslt = Calc1($"_{nameof(D02)}.txt");
        Assert.AreEqual(2283, rslt);
     }
 
@@ -51,10 +51,10 @@ public class D002
     [TestMethod]
     public void P2()
     {
-        var rslt = Calc2($"_{nameof(D002)}_1_sample.txt");
+        var rslt = Calc2($"_{nameof(D02)}_1_sample.txt");
         Assert.AreEqual(2286, rslt);
 
-        rslt = Calc2($"_{nameof(D002)}.txt");
+        rslt = Calc2($"_{nameof(D02)}.txt");
         Assert.AreEqual(78669, rslt);
     }
 
