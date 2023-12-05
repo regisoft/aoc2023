@@ -1,5 +1,3 @@
-using System.Text.Json;
-
 namespace aoc2023;
 
 [TestClass]
